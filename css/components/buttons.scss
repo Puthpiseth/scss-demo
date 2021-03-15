@@ -1,0 +1,9 @@
+@import "../base/index";
+
+a.button {
+  @include link;
+
+  &:hover {
+    @include link-hover;
+  }
+}
