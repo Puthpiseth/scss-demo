@@ -1,0 +1,50 @@
+@import "../base/index";
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+}
+
+.container {
+    background-color: $bg-container-color;
+    width: 95%;
+}
+
+.container div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 25px;
+    height: 90px;
+    text-align: left;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px 3px $box-shadow-color;
+    font-size: 20px;
+
+}
+
+.box-1 {
+    background: $bg-box-color;
+    border: 2px solid $box-1-border-color;
+    
+}
+
+.box-2 {
+    background: $bg-box-color;
+    border: 2px solid $box-2-border-color;
+}
+
+.box-3 {
+    background: $bg-box-color;
+    border: 2px solid $box-3-border-color;
+}

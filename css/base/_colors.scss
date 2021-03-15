@@ -1,4 +1,12 @@
-$blue: #0000cc;
-$red: #cc0000;
-$dark-red: darken($red, 20%);
-$light-red: lighten($red, 30%);
+// $blue: #0000cc;
+// $red: #cc0000;
+// $dark-red: darken($red, 20%);
+// $light-red: lighten($red, 30%);
+
+$primary-color : rgb(0, 0, 0);
+$bg-container-color : rgb(245, 241, 241);
+$bg-box-color : rgb(255, 255, 255);
+$box-shadow-color : rgb(180, 177, 177);
+$box-1-border-color : rgb(0, 255, 13);
+$box-2-border-color : rgb(255, 165, 0);
+$box-3-border-color : rgb(255, 0, 0);
